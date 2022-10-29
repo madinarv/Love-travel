@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    padding: 2rem;
+    display: flex;
+    text-align: center;
+    background-color: #57535D;
+  
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    background-size: cover;
+    flex-wrap: wrap;
+
+}
+
+#header  .logo img{
+    width: 160px;
+    align-items: center;
+}
+#header .navigation a{
+    text-decoration: none;
+    color: white;
+ 
+}
+#header .navigation {
+    letter-spacing: 2px;
+    align-items: center;
+    width: 43%;
+    margin-left: 10rem;
+    justify-content: space-between;
+    display: flex;
+}
+#header .goto a{
+  
+  color: white;
+    margin-left: 10rem;
+    text-decoration: none;
+}
+ #header .goto{
+    align-items: center;
+ }  
+ #header #firstpart{
+    text-align: center;
+    width: 100%;
+    padding:14rem ;
+    line-height: 4rem;
+ }
+ #header #firstpart .Search{
+    color: white;
+   
+ }
+ #header #firstpart .Search h1{
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+
+ }
+ #header #firstpart .Search h6{
+    text-align: center;
+    font-size: 20px;
+   
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+#header #firstpart .iconpart{
+    margin: auto;
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+#header #firstpart .iconpart a{
+    text-decoration: none;
+    color: white;
+    }
+    
+#header #firstpart .iconpart .icons i {
+    font-size: 40px;
+    }
+    
+#header #firstpart .iconpart .icons {
+
+    padding: 0 16px;
+    }
+    
+#header #firstpart .Search select {
+    appearance: none;
+    margin: 2.8rem auto;
+    padding: 0.8rem 3rem;
+    cursor: pointer;
+    color: #57535D;
+    background-color: #f9f9f9;
+    border-radius: 100px;
+    border: 1px solid #f9f9f9;
+    }
+    
+#header .goto a {
+    text-align: center;
+        border-radius: 100px;
+        padding: 9px 17px;
+        background-color: #BA71DA;
+        color: #f9f9f9;
+    }
+    
+    #purposal .text h3 {
+        color: #9a9a9a;
+        padding: 2rem;
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 2px;
+    
+    }
+    
+    #purposal .text h2 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+    color: #57535D;
+    }
+#purposal .galery {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#purposal .galery .photo {
+    width: 30%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+}
+
+#purposal .galery .photo img {
+    width: 100%;
+}
+#thirdpart {
+    margin: 1rem auto;
+    width: 93%;
+    text-align: center;
+}
+
+#thirdpart .text h3 {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 14px;
+    color: #9a9a9a;
+    font-family: 'Poppins', sans-serif;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+#thirdpart .text h2{
+    font-size: 40px;
+    color: #555555;
+    font-weight: bold;
+}
+
+#thirdpart .text {
+    text-align: center;
+}
+#thirdpart .photos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+#thirdpart .photos .phooto{
+    width: 30%;
+    margin-right: 1rem;
+
+}
+#thirdpart .photos .phooto img{
+    width:100%;
+}
+.photos .info {
+    padding: 30px;
+
+}
+
+.photos .info h3 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.photos .info i {
+    width: 5%;
+}
+
+.photos .info .place {
+    display: flex;
+    color: #9a9a9a;
+    padding:12px 0;
+    font-weight: 100;
+}
+
+.photos .info h5 {
+    width: 90%;
+    text-align: left;
+    font-size: 15px;
+    line-height: 15px;
+    cursor: pointer;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #f3f0f0;
+    margin: 9px auto;
+}
+.photos .phooto .price  p{
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 3px;
+    width: 18%;
+}
+.photos .phooto .price  .catecory{
+    display: flex;
+  
+}
+.photos .phooto .price  a{
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 3px;
+    width: 10%;
+    margin-left: 27px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #FFD205;
+    padding:2px 1px ;
+    border-radius: 100px;
+}
+.photos .phooto .price  h2{
+    width: 21%;
+    text-align: right;
+    margin-left: 13rem;
+    font-weight: normal;
+}
+.photos .phooto .lorem span{
+    font-size: 18px;
+    line-height: 27px;
+    color: #9a9a9a;
+
+}
+.photos .phooto .lorem{text-align: left;}
+.photos .phooto .bottom a{
+    padding: .9rem 1.1rem;
+    font-weight: bold;
+    font-size: 14px;
+   
+}
+.photos .phooto .bottom{
+    margin-left: -2rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+.photos .phooto .price .catecory h3{
+    text-decoration: line-through;
+    color: #9a9a9a;
+    width: 15%;
+    display: flex;
+}
+.photos .phooto .price .catecory .money{
+    width: 40%;
+}
+.photos .phooto .price .catecory .money h3{
+    text-decoration: line-through;
+    color: #9a9a9a;
+    width: 15%;
+    display: flex;
+}
+.photos .phooto .price .catecory .money h2{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.photos .phooto .price .catecory .money{
+    display: contents;
+    justify-content: flex-end;
+}
+
+#thirdpart .photos .phooto2{
+    width: 30%;
+    margin-right: 1rem;
+}
+#thirdpart .photos .phooto2 img{
+    width:100%;
+}
+.photos .info {
+    padding: 30px;
+}
+
+.photos .info h3 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    color: #555555;
+    font-weight: bold;
+}
+.photos .info i {
+    width: 5%;
+}
+.photos .info .place {
+    display: flex;
+    color: #9a9a9a;
+    padding:12px 0;
+    font-weight: 100;
+}
+
+.photos .info h5 {
+    width: 90%;
+    text-align: left;
+    font-size: 15px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.photos .phooto2 .price  p{
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 3px;
+    width: 18%;
+}
+.photos .phooto2 .price  .catecory{
+    display: flex;
+    justify-content: center;  
+}
+.photos .phooto2 .price  a{
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 3px;
+    width: 10%;
+    margin-left: 27px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #F76570;
+    padding:2px 1px ;
+    border-radius: 100px;
+}
+.photos .phooto2 .price  h2{
+    width: 21%;
+    text-align: right;
+    margin-left: 13rem;
+    font-weight: normal;
+}
+.photos .phooto2 .lorem span{
+    font-size: 18px;
+    line-height: 27px;
+    color: #9a9a9a;
+
+}
+.photos .phooto2 .lorem{
+    text-align: left;
+}
+.photos .phooto2 .bottom a{
+    padding: .9rem 1.1rem;
+    font-weight: bold;
+    font-size: 14px;
+   
+}
+.photos .phooto2 .bottom{
+    margin-left: -2rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+.photos .phooto2 .price .catecory h3{
+    text-decoration: line-through;
+    color: #9a9a9a;
+    width: 15%;
+    display: flex;
+}
+.photos .phooto2 .price .catecory .money{
+    width: 40%;
+}
+.photos .phooto2 .price .catecory .money h3{
+    text-decoration: line-through;
+    color: #9a9a9a;
+    width: 15%;
+    display: flex;
+}
+.photos .phooto2 .price .catecory .money h2{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.photos .phooto2 .price .catecory .money{
+    display: contents;
+    justify-content: flex-end;
+}
+#thirdpart .photos .phooto3{
+    width: 30%;
+    margin-right: 1rem;
+    
+}
+#thirdpart .photos .phooto3 img{
+    width:100%;
+} 
+.photos .phooto3 .price  p{
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 3px;
+    width: 18%;
+}
+.photos .phooto3 .price  .catecory{
+    display: flex;      
+}
+.photos .phooto3 .price  a{
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 3px;
+    width: 10%;
+    margin-left: 27px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #ba71da;
+    padding:2px 1px ;
+    border-radius: 100px;
+}
+.photos .phooto3 .price  h2{
+    width: 21%;
+    text-align: right;
+    margin-left: 13rem;
+    font-weight: normal;
+}
+.photos .phooto3 .lorem span{
+    font-size: 18px;
+    line-height: 27px;
+    color: #9a9a9a;    
+}
+.photos .phooto3 .lorem{
+    text-align: left;
+}
+.photos .phooto3 .bottom a{
+    padding: .9rem 1.1rem;
+    font-weight: bold;
+    font-size: 14px;       
+}    
+.photos .phooto3 .bottom{
+    margin-left: -2rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+.photos .phooto3 .price .catecory h3{
+    text-decoration: line-through;
+    color: #9a9a9a;
+    width: 15%;
+    display: flex;
+}
+.photos .phooto3 .price .catecory .money{
+        width: 40%;
+}
+.photos .phooto3 .price .catecory .money h3{
+        text-decoration: line-through;
+        color: #9a9a9a;
+        width: 15%;
+      display: flex;
+}
+.photos .phooto3 .price .catecory .money h2{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+    
+.photos .phooto3 .price .catecory .money{
+    display: contents;
+    justify-content: flex-end;    
+}
+
+
+
